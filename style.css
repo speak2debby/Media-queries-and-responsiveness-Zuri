@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=poppins:wght@400;500;600;700;&display=swap');
-
 * {
     box-sizing: border-box;
     padding: 0;
@@ -30,23 +29,24 @@ main {
     justify-content: center;
     height: 100vh;
     width: 100%;
-} 
+}
+
 .flex-box {
     display: flex;
     justify-content: center;
     align-items: center;
     /*flex-wrap: wrap;*/
 }
+
 .text-box {
     padding-right: 50px;
-    width: 100%; 
-} 
+    width: 100%;
+}
 
 .text-box p {
     color: white;
     font-size: 16px;
     font-weight: 600;
-
 }
 
 .text-box h1 {
@@ -61,12 +61,10 @@ main {
     color: red;
     border-image-source: none;
     background-image: url(./icon-error.svg);
-
 }
 
 span {
     font-weight: bolder;
-    
 }
 
 .text-box {
@@ -114,13 +112,11 @@ input {
     font-size: 0.8rem;
     outline: hsl(0, 100%, 74%);
     border-color: hsl(0, 100%, 74%);
-
 }
 
 input:hover {
     border-color: grey;
     border-radius: 5px;
-    .border-radius
 }
 
 .input-box {
@@ -130,7 +126,6 @@ input:hover {
 .input-box p {
     color: azure;
 }
-
 
 input[type='submit'] {
     margin-bottom: 3rem;
@@ -177,7 +172,6 @@ button {
     margin-top: 1rem;
 }
 
-
 button:hover {
     background-color: #3cb371;
     border: 1px white solid;
@@ -199,7 +193,7 @@ form p {
     margin-top: 10px;
 }
 
-@media (max-width : 992px) {
+@media (max-width: 992px) {
     body {
         background-image: url(./bg-intro-mobile-12.png);
         background-position: center;
@@ -208,35 +202,25 @@ form p {
         text-align: center;
         margin: 20% 10%;
     }
-
     main {
         height: auto;
         display: block;
-
     }
-
     h1 {
         font-size: 2rem;
     }
-
     .flex-box {
         flex-direction: column;
         justify-content: space-between;
-    } 
-
+    }
     .text-box {
         padding-right: 0;
         margin-bottom: 5rem;
-    } 
-
+    }
     .login {
         width: 100%;
     }
-
-
     form {
         padding: 20px;
     }
-
-
 }
